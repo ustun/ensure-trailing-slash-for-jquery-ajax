@@ -1,0 +1,8 @@
+This code makes sure that every AJAX request has a trailing slash.  This is
+particularly important for Django projects where lack of a trailing slash
+results in redirects for GETs and failures for POSTs.
+
+
+TODO:
+
+Tests
